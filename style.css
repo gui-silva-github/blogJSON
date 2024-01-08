@@ -1,0 +1,42 @@
+*{
+    margin: 0; padding: 0; font-family: 'Popins', sans-serif; box-sizing: border-box;
+}
+#container{
+    text-align: center; width: 100%; margin: 0 auto; background: rgba(0, 106, 255, 0.461);
+}
+h1{
+    text-shadow: 2px 2px 2px black; font-size: 4em; padding: 30px; color: white;
+}
+img{
+    border: 4px solid black; cursor: pointer; width: 150px; border-radius: 40%;
+}
+fieldset{
+    margin: 8px auto; border: 4px solid white; width: 40%;
+}
+legend{
+    font-size: 2em; color: white; text-shadow: 2px 2px 2px black;
+}
+fieldset div{
+    margin: 10px;
+}
+input, button, textarea{
+    border-radius: 10px; border: none; outline: none; width: 100%; text-align: center; padding: 10px; font-size: 1.3em; color: rgba(0, 106, 255, 0.461);
+}
+button{
+    background: yellow; color: black;
+}
+.posts{
+    font-size: 1.5em; color: white; margin: 40px 10px; background: rgba(0, 170, 255, 0.525); border: 2px solid white;
+}
+.posts div{
+    margin: 10px; color: yellow;
+}
+.posts h1{
+    font-size: 1em; text-shadow: none;
+}
+.posts span{
+    color: black;
+}
+.posts hr{
+    height: 10px; background: yellow; margin-top: 30px;
+}
